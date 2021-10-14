@@ -10,6 +10,7 @@ int main(){
 
   while (getline(std::cin, s)){
     original_code += s;
+    original_code += "\n";
     s = removeLeadingSpaces(s);
     s+="\n";
 
