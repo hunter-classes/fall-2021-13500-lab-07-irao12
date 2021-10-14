@@ -5,13 +5,11 @@
 
 int main(){
 
-  std::string s, file_code;
+  std::string s, original_code, file_code;
   int open_brackets = 0;
 
-  std::cout << "Before: " << '\n';
-
   while (getline(std::cin, s)){
-    std::cout << s << '\n';
+    original_code += s;
     s = removeLeadingSpaces(s);
     s+="\n";
 
@@ -19,11 +17,13 @@ int main(){
       if (!(i == 0 && s[i] == '}'))
         file_code += '\t';
     }
+
     file_code += s;
 
     open_brackets += countChar(s, '{');
     open_brackets -= countChar(s, '}');
   }
+  std::cout << "Before: " << original_code << '\n';
   std::cout << "\nAfter: \n" << file_code << '\n';
 
   return 0;
