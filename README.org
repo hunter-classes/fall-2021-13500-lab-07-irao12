@@ -8,9 +8,12 @@
 
 * Notes:
 - In order to test main, you have to redirect input from a file into main
+
   For example:
+
   ./main < bad-code.cpp
-  ./main < bad-code2.cpp    
+
+  ./main < bad-code2.cpp
 
 
 * General instructions:
