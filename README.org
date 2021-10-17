@@ -7,10 +7,10 @@
 * GitHub username: irao12
 
 * Notes:
-- In order to test main, you have to redirect input from a file into main  
-  For example:
-  ./main < bad-code.cpp
-  ./main < bad-code2.cpp
+- In order to test main, you have to redirect input from a file into main  <br/>
+  For example: <br/>
+  ./main < bad-code.cpp  <br/>
+  ./main < bad-code2.cpp  <br/>
 
 
 * General instructions:
