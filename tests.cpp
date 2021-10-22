@@ -16,4 +16,5 @@ TEST_CASE("Testing countChar"){
   CHECK(countChar("Hello this is a test", 'r') == 0);
   CHECK(countChar("{{{sddasddaasd{{}}}}}", '{') == 5);
   CHECK(countChar("{{{sddasddaasd{{}}}}}", '}') == 5);
+  CHECK(countChar("", '{') == 0);
 }
