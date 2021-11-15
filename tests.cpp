@@ -3,11 +3,11 @@
 #include "funcs.h"
 
 TEST_CASE("Testing removeLeadingSpaces"){
-  CHECK(removeLeadingSpaces("")== "");
-  CHECK(removeLeadingSpaces("                     ") == "");
-  CHECK(removeLeadingSpaces("       int x = 1;  ") == "int x = 1;  ");
-  CHECK(removeLeadingSpaces("test      ") == "test      ");
-  CHECK(removeLeadingSpaces("                       hello  ") == "hello  ");
+  CHECK(removeLeadingSpaces("") == ""); //Edited by Ellen
+  CHECK(removeLeadingSpaces("                     ") == ""); //Edited by Ellen
+  CHECK(removeLeadingSpaces("       int x = 1;  ") == "int x = 1;  "); //Edited by Ellen
+  CHECK(removeLeadingSpaces("test      ") == "test      "); //Edited by Ellen
+  CHECK(removeLeadingSpaces("                       hello  ") == "hello  "); //Edited by Ellen
 }
 
 TEST_CASE("Testing countChar"){

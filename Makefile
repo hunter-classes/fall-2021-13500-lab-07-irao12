@@ -13,5 +13,5 @@ tests.o: tests.cpp
 funcs.o: funcs.cpp funcs.h
 	g++ -std=c++11 -c funcs.cpp
 
-clean:
+clean: #Edited by Ellen
 	rm *.o fixed-bad-code.cpp fixed-bad-code2.cpp
